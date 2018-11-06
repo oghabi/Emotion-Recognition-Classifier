@@ -8,7 +8,7 @@ This project uses machine learning to build an emotion recognition system capabl
 The dataset used is the [MAHNOB Database](https://mahnob-db.eu/). In addition, more video clips were  collected by inducing subjects to laughter and the data was manually annotated.
 
 ## Results
-[Report](https://github.com/oghabi/Fake-News-Detection/blob/master/Individual%20Report.pdf) discusses the video and audio data pre-processing methods and the feature extraction process, such as MFCC construction from the audio signals. It also compares and contrasts the performance of the various implemented machine learning and deep learning models on the dataset.
+[Report](https://github.com/oghabi/Emotion-Recognition-Classifier/blob/master/Report.pdf) discusses the video and audio data pre-processing methods and the feature extraction process, such as MFCC construction from the audio signals. It also compares and contrasts the performance of the various implemented machine learning and deep learning models on the dataset.
 
 The best model was a weighted ensemble video and audio model which used VGG-16 to extract facial features from the video frames and LSTMs in order to exploit the temporal structure of video.
 
